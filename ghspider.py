@@ -20,6 +20,10 @@ def remove_db():
 	except FileNotFoundError:
 		print("Database file doesn't exist.")
 		exit()
+	except PermissionError:
+		print('Unable to delete the database file.')
+		print('The file is being used by another program.')
+		exit()
 
 '''
 Function to dump data for network error.
