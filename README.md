@@ -1,5 +1,5 @@
 # Github Spider
-Github Spider is a tool to spider Github users' data such as name, public repos count, followers count and following count using Github API and store the data into sqlite database.
+Github Spider is a tool to spider Github users' data such as name, public repos count, followers count and following count using Github API and store the data into SQLite database. You can view the database contents using [SQLite Browser](https://sqlitebrowser.org/).
 
 ## Dependencies
 **Github Spider** depends on the following python modules:
@@ -62,6 +62,9 @@ python ghspider.py -r
 ```
 
 ![usage](usage.png)
+
+## Version
+Current version is 1.0.0
 
 ## Copyright
 * (C) 2021 Rishabh Ranjan Jha (https://github.com/rjharishabh)
